@@ -1,6 +1,7 @@
 # House-Sales-Analysis
 
 # Link to presentation
+https://docs.google.com/presentation/d/16gbYZ3J0wil40tYnOJnxCsJNtXfCiLa-p68pINBCY-c/edit?usp=sharing
 
 # Overview
 In this project, we aimed to assist an insurance company in estimating potential payouts in the event of a total loss of a home, largely determined by the market value of the home. We utilized the King County House Sales dataset, which includes various features of houses. Our methods involved data cleaning, exploratory data analysis, and multiple linear regression modeling. Our models revealed that the condition, total square footage, view, and grade of a house are significant predictors of its price. Despite some limitations, such as potential multicollinearity and non-normal distribution of residuals, our models explained about 41.8% of the variation in house prices. We recommend that the insurance company consider these variables when estimating potential payouts. Future work could involve collecting more data, including additional variables, or trying different modeling techniques to improve the accuracy of the predictions.
@@ -10,8 +11,8 @@ In this project, we aimed to assist an insurance company in estimating potential
 An insurance company needs to identify the key features of a home that influence its market value. This information is crucial when estimating potential payouts in the event of a total loss. While the company understands that predicting the exact market value of a home based on its features is challenging, it aims to develop a model that can highlight the most significant features affecting home values.This is important to this company because it directly impacts the company's risk management and financial planning. By understanding the key features that influence home values, the company can make more informed estimates of potential payouts, helping it to manage risk and plan for financial contingencies. 
 
 # Objectives
-One objective for this analyss was to discover the features of a home that most significantly impact its market value.
-Another was to predict this home sales prices based on the other features in the dataset.
+One objective for this analysis was to discover the features of a home that most significantly impact its market value.
+Another was to predict home sales prices based on the other features in the dataset.
 
 ## Data Understanding 
 The data used for this project is the King County House Sales dataset. The dataset contains house sale prices for King County in Washington State, which includes Seattle. It includes homes sold between May 2014 and May 2015.It was surced from kaggle and directly relates to our data analysis question as it contains information about various features of homes and their corresponding sale prices.The target variable for this analysis is price, which represents the sale price of each home. 
@@ -66,8 +67,6 @@ While the model seems to fit the current data reasonably well, it's important to
 
 ##### Business Benefit: 
 Despite its limitations, this model could be very beneficial for the insurance company. It provides a way to estimate the market value of a house based on its features, which is crucial for determining potential payouts in the event of a total loss. By understanding which features have the most impact on house prices, the company can also better assess the risk associated with insuring a particular house. This could help the company make more informed decisions and potentially reduce its financial risk.
-
-In conclusion, while the model isn't perfect, it provides valuable insights into the factors that influence house prices and could be a useful tool for the insurance company. Future work could involve collecting more data, including additional variables, or trying different modeling techniques to improve the accuracy of the predictions.
 
 ## Conclusions
 The analysis conducted in this project provides valuable insights into the factors that influence house prices in King County. The multiple linear regression models developed show that the variables 'grade', 'view', 'condition', and 'total_sqft' are statistically significant predictors of the price of a house.
