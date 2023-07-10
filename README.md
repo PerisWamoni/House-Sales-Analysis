@@ -4,7 +4,16 @@
 https://docs.google.com/presentation/d/16gbYZ3J0wil40tYnOJnxCsJNtXfCiLa-p68pINBCY-c/edit?usp=sharing
 
 # Overview
-In this project, we aimed to assist an insurance company in estimating potential payouts in the event of a total loss of a home, largely determined by the market value of the home. We utilized the King County House Sales dataset, which includes various features of houses. Our methods involved data cleaning, exploratory data analysis, and multiple linear regression modeling. Our models revealed that the condition, total square footage, view, and grade of a house are significant predictors of its price. Despite some limitations, such as potential multicollinearity and non-normal distribution of residuals, our models explained about 41.8% of the variation in house prices. We recommend that the insurance company consider these variables when estimating potential payouts. Future work could involve collecting more data, including additional variables, or trying different modeling techniques to improve the accuracy of the predictions.
+This project aimed to assist an insurance company in estimating potential payouts in the event of a total loss of a home, largely determined by the market value of the home.
+
+The King County House Sales dataset, obatiend from Kaggle which included various features of houses was utilised.
+
+Methods used involved data cleaning, exploratory data analysis, and multiple linear regression modeling. 
+The models revealed that the condition, total square footage, view, and grade of a house are significant predictors of its price. 
+
+Despite some limitations, such as potential multicollinearity and non-normal distribution of residuals, the models explain about 41.8% of the variation in house prices. We recommend that the insurance company consider these variables when estimating potential payouts. 
+
+Future work could involve collecting more data, including additional variables, or trying different modeling techniques to improve the accuracy of the predictions.
 
 
 # Business problem
